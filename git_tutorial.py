@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def add_numbers(a, b, c):
     """return the sum of a, b, and c"""
     return sum([a, b, c])
@@ -9,5 +10,6 @@ def add_numbers(a, b, c):
 # 4. add documentation for add_numbers()
 
 
+# pylint: disable=missing-function-docstring
 def calc_difference(a, b):
     return a - b
